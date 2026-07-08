@@ -18,6 +18,9 @@ class Settings(BaseSettings):
     urgent_time_threshold: float = Field(13.0, validation_alias='URGENT_TIME_THRESHOLD')
     capture_delay_min: float = Field(0.05, validation_alias='CAPTURE_DELAY_MIN')
     capture_delay_max: float = Field(0.20, validation_alias='CAPTURE_DELAY_MAX')
+        # 🆕🆕 Диапазон задержки для режима mt ≤ 0.1
+    think_time_fast_min: float = Field(0, validation_alias='THINK_TIME_FAST_MIN')
+    think_time_fast_max: float = Field(0, validation_alias='THINK_TIME_FAST_MAX')
     
     model_config = {
         'env_file': '.env',
