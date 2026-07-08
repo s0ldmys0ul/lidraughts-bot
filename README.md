@@ -156,9 +156,3 @@ python main.py
 ## Лицензия
 
 MIT © Artem (s0ldmys0ul)
-
-### 1. Клонирование репозитория
-
-```bash
-git clone https://github.com/s0ldmys0ul/lidraughts-bot.git
-cd lidraughts-bot
